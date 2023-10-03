@@ -1,0 +1,36 @@
+/*
+MY COLOR PALETTE
+Color 1 - #C6C5B9 (Silver)
+Color 2 - #62929E (Blue [Munsell])
+Color 3 - #4A6D7C (Payne's gray)
+Color 4 - #393A10 (Drab dark brown)
+Color 5 - #475657 (Outer space)
+*/
+
+body {
+    background-color:#C6C5B9;
+}
+
+button {
+    background-color:#475657;
+    color:#FFFFFF;
+    /*
+    font-family: 'INSERT FONT HERE', sans-serif, etc.;
+    */
+}
+
+button:hover {
+    background-color: #62929E;
+}
+
+/*h1 {
+      font-family: 'INSERT FONT HERE', cursive, etc.;
+      font-size:70px;
+}
+
+  h2 {
+      font-family: 'INSERT FONT HERE', sans-serif, etc.;
+      text-transform:uppercase;
+      leter-spacing:3px;
+}
+*/
