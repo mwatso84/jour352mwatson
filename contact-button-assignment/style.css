@@ -21,7 +21,7 @@ button {
     border: none;
     display: inline-block;
     font-family: 'Questrial', sans-serif;
-    font-size:15px;
+    font-size: 15px;
 
 }
 
@@ -31,12 +31,12 @@ button:hover {
 
 h1 {
       font-family: 'Young Serif', serif;
-      font-size:65px;
+      font-size: 65px;
 }
 
 h2 {
       font-family: 'Bebas Neue', sans-serif;
-      font-size:45px;
+      font-size: 45px;
       letter-spacing: 1px
 }
 
