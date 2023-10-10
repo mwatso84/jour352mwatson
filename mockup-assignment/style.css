@@ -1,0 +1,54 @@
+body {
+    margin: 0px 0px 40px 0px
+}
+
+#topper {
+    height: 380px;
+    background-color: #B2764A;
+}
+
+img {
+    width: 325px;
+    border-radius: 500px;
+    float: left;
+    margin:0px 0px 0px 200px;
+    border:5px solid #343C24;
+}
+
+h1 {
+    margin: 0px 200px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+    margin: 0px 200px 0px 0px
+
+}
+
+h3{
+    margin:0px 200px 0px 200px;
+}
+
+p {
+    margin:0px 200px 0px 200px;
+
+}
+
+button {
+    background-color: #343C24;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding:10px 20px 10px 20px
+    
+        
+}
+
+button:hover {
+    background-color: #B2764A
+}
+
+#button-container {
+    text-align: center;
+}
