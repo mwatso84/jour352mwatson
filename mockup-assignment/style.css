@@ -58,7 +58,8 @@ button {
     text-transform: uppercase;
     margin: 100px 50px 50px 50px;
     font-size: 22px;
-    font-weight: 100;    
+    font-weight: 100; 
+    letter-spacing: 1px
 }
 
 button:hover {
