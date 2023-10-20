@@ -1,0 +1,42 @@
+img {
+    width:100%;
+}
+
+#body {
+    background-color:#D3D2D9;
+}
+
+.nav {
+    background-color:#6B6B67;
+}
+
+#footer {
+    background-color:#A3AAB5;
+    padding: 10px;
+}
+
+#topper {
+    background-color:#A3AAB5;
+}
+
+#button {
+    background-color:#E0DAD2;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 25px 35px 25px 35px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#button:hover {
+    background-color: #919191;
+}
+
+h1 {
+    text-transform: uppercase
+}
+
+h2 {
+    text-transform: uppercase
+}
