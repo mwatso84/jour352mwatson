@@ -1,19 +1,43 @@
+@media {
+
 img {
     width:100%;
 }
 
 #body {
     background-color:#D3D2D9;
+    margin: 0px 0px 100px 0px;
 }
 
-.nav {
+.nav a{
     background-color:#6B6B67;
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    color: black;
+}
+    
+#nav a:hover{
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+    color:white
 }
 
-#footer {
-    background-color:#A3AAB5;
-    padding: 10px;
+#Experience {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
 }
+
+#Education {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+}
+
+#Skills {
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
+}
+
+
 
 #topper {
     background-color:#A3AAB5;
@@ -27,6 +51,10 @@ img {
     padding: 25px 35px 25px 35px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    font-family: 'Gabarito', sans-serif;
+    
+    
+    color: black;
 }
 
 #button:hover {
@@ -34,9 +62,30 @@ img {
 }
 
 h1 {
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: 'Gabarito', sans-serif;
 }
 
 h2 {
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+    
+.section-header {
+    border-bottom: 1px solid black;    
+}
+
+#footer {
+    background-color:#A3AAB5;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    position:fixed;
+    bottom: 0px;
+}
+
+}
+
+@media (min-width:576px) {
+    
+    
 }
