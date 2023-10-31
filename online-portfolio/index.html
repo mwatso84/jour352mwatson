@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <link href="style.css" rel="stylesheet">
 
@@ -36,15 +36,19 @@
         <div class="col-sm-8">
             <h1>Matthew Watson</h1>
             <h2>Student Journalist and Photographer</h2>
-            <a href="mailto:mwatso84@umd.edu">
-                <button id="button">Contact Me</button>
-            </a>
+            
         </div>
         
-        <div class="col-sm-4" id="topper">
-            <img src="watson_headshot.JPG" alt="Matthew Watson Headshot" id="headshot">
+        <div class="col-sm-4" id="photo">
+            <img src="watson_headshot_square.png" alt="Matthew Watson Headshot" id="headshot">
         </div>
     
+    </div>
+    
+    <div class="row text-center">
+    <a href="mailto:mwatso84@umd.edu">
+                <button id="button">Contact Me</button>
+            </a>
     </div>
 
 </div>
@@ -74,17 +78,20 @@
         <div class="col-sm-3">
         <!--Experience section header goes here-->
             <a name="experience"></a><h3>Experience</h3>
+    <hr width="100%" 
+        size="3" 
+        align="left"> 
+                
         </div>
-        
     </div>
     
-    <div class="row">
+    <div class="row" id="exprow">
         
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="tjexp">
         <!--Experience title, company, dates goes here--> 
-            <strong>Crew Member</strong><br>
-            <em><strong>Trader Joe's</strong></em><br>
-            July 2023 - Present
+            <h4>Crew Member</h4><br>
+            <em><h5>Trader Joe's</h5></em><br>
+            <h6>July 2023 - Present</h6>
         </div>
     
         <div class="col-sm-9">
@@ -93,9 +100,9 @@
         
         <div class="col-sm-3">
         <!--Experience title, company, dates goes here--> 
-            <strong>Desk Attendant</strong><br>
-            <em>Montgomery Village Pools</em><br>
-            July 2023 - Present
+            <strong><h4>Desk Attendant</h4></strong><br>
+            <em><h5>Montgomery Village Pools</h5></em><br>
+            <h6>July 2023 - Present</h6>
         </div>
     
         <div class="col-sm-9">
@@ -108,21 +115,27 @@
         
         <div class="col">
         <a name="education"></a>
-        <!--Education--><h3>Education</h3>
+        <!--Education-->
+            <h3>Education</h3>
+        <hr width="22.5%" 
+        size="3" 
+        align="left"> 
         </div>
         
     </div>
     
     <div class="row">
         
-        <div class="col">
-        <!--Education goes here--><strong>Bachelor of Arts, Journalism</strong><br>University of Maryland, 2024 (expected)
+        <div class="col" id="umdcol">
+        <!--Education goes here--><strong><h4>Bachelor of Arts, Journalism</h4></strong><br>
+        <h5><em>University of Maryland, 2024 (expected)</em></h5>
         </div>
         
     <div class="row">
         
-        <div class="col">
-        <strong>Associate of Arts, General Studies</strong><br>Montgomery College, 2021
+        <div class="col" id="mococol">
+            <strong><h4>Associate of Arts, General Studies</h4></strong><br>
+            <em><h5>Montgomery College, 2021</h5></em>
         </div> 
         
     </div>
@@ -133,29 +146,32 @@
         <div class="col">
             <!--Skills--><a name="skills"></a>
             <h3>Skills</h3>
+            <hr width="22.5%" 
+                size="3" 
+                align="left"> 
         </div>
     </div>
     
-    <div class="row">
+    <div class="row" id="skillrow">
     <ul>
         <li><div class="col-sm-6">
-        <!--Skills here-->Photo Editing: Proficient in Adobe Photoshop
+        <!--Skills here--><strong>Photo Editing:</strong>Proficient in Adobe Photoshop
         </div></li>
         
         <li><div class="col-sm-6">
-        <!--Skills here-->Video Editing: Proficient in Adobe Premiere Pro
+        <!--Skills here--><strong>Video Editing:</strong>Proficient in Adobe Premiere Pro
         </div></li>
         
         <li><div class="col-sm-6">
-        <!--Skills here-->Journalistic Writing: Proficient in AP Style, copy editing
+        <!--Skills here--><strong>Journalistic Writing:</strong> Proficient in AP Style, copy editing
         </div></li>
         
         <li><div class="col-sm-6">
-        <!--Skills here-->Eagle Scout: Proficient in knots, first aid, orienteering
+        <!--Skills here--><strong>Eagle Scout:</strong> Proficient in knots, first aid, orienteering
         </div></li>
         
         <li><div class="col-sm-6">
-        <!--Skills here-->Multilingual: Conversational knowledge in French, Tagalog
+        <!--Skills here--><strong>Multilingual:</strong> Conversational knowledge in French, Tagalog
         </div></li>
     </ul>
     </div>
