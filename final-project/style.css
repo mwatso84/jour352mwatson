@@ -1,27 +1,34 @@
-/* 
+@media { 
 img {
     width:100%;
 }
 
+
 #topper {
     height:700px;
-    background-image: url(urlgoeshere.jpg);
-    background: cover;
+    background-image: url(imrs.jpeg);
+    background-size: cover;
     background-position: 30% 80%;
     
 } 
 
 #content {
-    width:100%;
+    width:60%;
     margin:auto;
 }
 
-.red {
-    color:red;
+.gray {
+    color:gray;
+}
+
+body {
+    background-color: #D3D2D9;
+}
 }
 
 h1 {
     font-size:100px;
+    text-align: center
 }
 
 @media (min-width:576px) {
@@ -30,7 +37,7 @@ h1 {
     }
     
     h1 {
-        font-size:80px;
+        font-size:50px;
     }
 }
 
