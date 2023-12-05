@@ -33,6 +33,20 @@ h1 {
     font-size:100px;
     text-align:center;
 }
+.pullquote {
+    padding: 30px 10px 10px 10px;
+    margin: 30px 0px 30px 0px;
+    border-top: 5px solid navy;
+    text-align:center;
+    } 
+
+.quote {
+        
+}
+    
+.attribution {
+        
+}
     /*End of original media query*/
 }
 @media (min-width:576px) {
