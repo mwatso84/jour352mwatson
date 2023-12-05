@@ -16,6 +16,10 @@ img {
     width:60%;
     margin:auto;
 }
+    
+.editorsnote {
+    text-align: center;    
+}
 
 .gray {
     color:gray;
@@ -24,13 +28,13 @@ img {
 body {
     background-color: #D3D2D9;
 }
-}
 
 h1 {
     font-size:100px;
-    text-align: center
+    text-align:center;
 }
-
+    /*End of original media query*/
+}
 @media (min-width:576px) {
     #content {
         width:90%;
@@ -50,4 +54,3 @@ h1 {
         font-size:60px;
     }
 }
-*/
