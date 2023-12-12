@@ -30,22 +30,29 @@ body {
 }
 
 h1 {
-    font-size:100px;
+    font-size:50px;
     text-align:center;
 }
 .pullquote {
     padding: 30px 10px 10px 10px;
     margin: 30px 0px 30px 0px;
-    border-top: 5px solid navy;
+    border-top: 5px solid black;
     text-align:center;
     } 
 
 .quote {
-        
+    font-size:30px;   
 }
     
 .attribution {
         
+}
+    
+.quotemark {
+        font-size:100px;
+        font-weight:bold;
+        float:left;
+        line-height: 60px;
 }
     /*End of original media query*/
 }
@@ -53,6 +60,10 @@ h1 {
     #content {
         width:90%;
     }
+    
+    img {
+    width:100%;
+}
     
     h1 {
         font-size:50px;
@@ -63,6 +74,10 @@ h1 {
     #content {
         width:60%;
     }
+    
+    img {
+    width:100%;
+}
     
     h1 {
         font-size:60px;
