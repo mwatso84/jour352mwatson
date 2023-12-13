@@ -28,6 +28,10 @@ img {
     width: 60%;
     margin: auto;
 }
+    
+.nospace {
+    padding: 0px    
+}
 
 .gray {
     color:gray;
