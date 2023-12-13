@@ -17,8 +17,16 @@ img {
     margin:auto;
 }
     
+.reprodnote {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+    
 .editorsnote {
-    text-align: center;    
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
 .gray {
@@ -32,6 +40,7 @@ body {
 h1 {
     font-size:50px;
     text-align:center;
+    margin: 30px 0px 30px 0px
 }
 .pullquote {
     padding: 30px 10px 10px 10px;
