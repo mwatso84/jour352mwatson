@@ -54,18 +54,12 @@ p {
 }
     
 .caption {
-        font-size: 12px
+    font-size: 12px
 }
     
 .video {
     margin: auto;
     width: 100%
-}
-    
-.kcarr1 {
-        float:left;
-        width: 40%;
-        margin: 0px 20px;
 }
 
 .pullquote {
@@ -75,12 +69,13 @@ p {
     text-align:center;
     } 
 
-.quote {
-    font-size:30px;   
+.letter {
+    font-size: 60px;
+    line-height: 75px
 }
     
-.attribution {
-        
+.quote {
+    font-size:30px;   
 }
     
 .quotemark {
@@ -88,13 +83,6 @@ p {
     font-weight:bold;
     float:left;
     line-height: 60px;
-}
-    
-#footer {
-    background-color: rgb(199,175,174);
-    padding: 10px;
-    font-family: 'DM Sans', sans-serif;
-    bottom: 0px;
 }
     
 .flourish-embed {
@@ -105,11 +93,25 @@ p {
 .flourish-chart {
     width: auto;
 }
+
+#footer {
+    background-color: rgb(199,175,174);
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    bottom: 0px;
+}
+
     /*End of original (phone) media query*/
 }
 @media (min-width:576px) {
 #content {
     width:60%;
+}
+    
+.editorsnote {
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
     
 img {
@@ -128,31 +130,31 @@ h1 {
 }
 
 @media (min-width:992px) {
-    #content {
-        width:50%;
+#content {
+    width:50%;
     }
     
-    .editorsnote {
+.editorsnote {
     text-align: center;
     width: 50%;
     margin: auto;
 }
     
-    img {
+img {
     width:100%;
     text-align: center;
 }
     
-    h1 {
-        font-size:60px;
+h1 {
+    font-size:60px;
 }
     
-    .flourish-embed {
+.flourish-embed {
     width: 50%;
     margin: auto;
 }
     
-    .flourish-chart {
+.flourish-chart {
     width: auto;
 }
     /*End of laptop media query*/
