@@ -2,30 +2,26 @@
 img {
     width:100%;
 }
-
+    
+.byline {
+        font-size: 13px
+}
 
 #topper {
     height:700px;
     background-image: url(imrs.jpeg);
     background-size: cover;
     background-position: 30% 80%;
-    
 } 
 
 #content {
-    width:60%;
+    width:100%;
     margin:auto;
 }
-    
-.reprodnote {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
-    
+
 .editorsnote {
     text-align: center;
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
     
@@ -38,18 +34,44 @@ img {
 }
 
 body {
-    background-color: #D3D2D9;
+    /*background-color: #D3D2D9;*/
+    background-color:white;
 }
 
 h1 {
-    font-size:50px;
+    font-size:30px;
     text-align:center;
-    margin: 30px 0px 30px 0px
+    margin: 30px 0px 30px 0px;
+    font-family: 'Crimson Text', serif;
 }
+    
+h2 {
+    font-family: 'Crimson Text', serif;
+}
+    
+p {
+    font-family: 'DM Sans', sans-serif;    
+}
+    
+.caption {
+        font-size: 12px
+}
+    
+.video {
+    margin: auto;
+    width: 100%
+}
+    
+.kcarr1 {
+        float:left;
+        width: 40%;
+        margin: 0px 20px;
+}
+
 .pullquote {
     padding: 30px 10px 10px 10px;
     margin: 30px 0px 30px 0px;
-    border-top: 5px solid black;
+    border-top: 5px solid darkred;
     text-align:center;
     } 
 
@@ -62,37 +84,77 @@ h1 {
 }
     
 .quotemark {
-        font-size:100px;
-        font-weight:bold;
-        float:left;
-        line-height: 60px;
+    font-size:100px;
+    font-weight:bold;
+    float:left;
+    line-height: 60px;
 }
-    /*End of original media query*/
+    
+#footer {
+    background-color: rgb(199,175,174);
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    bottom: 0px;
+}
+    
+.flourish-embed {
+    width: 100%;
+    margin: auto;
+}
+    
+.flourish-chart {
+    width: auto;
+}
+    /*End of original (phone) media query*/
 }
 @media (min-width:576px) {
-    #content {
-        width:90%;
-    }
+#content {
+    width:60%;
+}
     
-    img {
+img {
     width:100%;
 }
     
-    h1 {
-        font-size:50px;
-    }
+h1 {
+    font-size:50px;
+}
+    
+.flourish-embed {
+    width: 70%;
+    margin: auto;
+}
+    /*End of tablet media query*/
 }
 
 @media (min-width:992px) {
     #content {
-        width:60%;
+        width:50%;
     }
+    
+    .editorsnote {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
     
     img {
     width:100%;
+    text-align: center;
 }
     
     h1 {
         font-size:60px;
-    }
+}
+    
+    .flourish-embed {
+    width: 50%;
+    margin: auto;
+}
+    
+    .flourish-chart {
+    width: auto;
+}
+    /*End of laptop media query*/
+
 }
